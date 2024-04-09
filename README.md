@@ -11,8 +11,8 @@
 
 
 #Setting Up Python Virtual Environment On Linux
-$ sudo apt-get update
-$ apt install tree
-$ sudo apt install -y python3-venv
-$ python3 -m venv venv
-$ source venv/bin/activate
+* sudo apt-get update
+* apt install tree
+* sudo apt install -y python3-venv
+* python3 -m venv venv
+* source venv/bin/activate
