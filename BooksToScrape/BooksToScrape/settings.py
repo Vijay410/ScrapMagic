@@ -64,6 +64,10 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    "BooksToScrape.pipelines.BookstoscrapePipeline": 300,
+   'BooksToScrape.pipelines.SaveToMySQLPipeline': 400
+}
+FEEDS = {
+    'booksdata.json': {'format': 'json'}
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
