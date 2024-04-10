@@ -51,4 +51,18 @@ below folder structure will be created
 * scrapy.cfg is a configuration file to change some deployment settings, etc.
 
 
+#Creating Our Scrapy Spider
+
+start creating our first Scrapy Spider.
+
+To create a new generic spider, simply run the genspider command:
+
+scrapy genspider bookspider books.toscrape.com
+
+
+# Cleaning the Scraped data
+* As we seen Alredy we have some issue in data and not clean, In this section we doing an data cleaening process. converting to numbers and removing an whitspaces. For this we use pipelines.py
+
+
+
 
