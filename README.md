@@ -63,6 +63,11 @@ scrapy genspider bookspider books.toscrape.com
 # Cleaning the Scraped data
 * As we seen Alredy we have some issue in data and not clean, In this section we doing an data cleaening process. converting to numbers and removing an whitspaces. For this we use pipelines.py
 
+# Storing the data into database:
 
+* Scrape the data and store in json
+* Connect to mysql database
+* create database and table
+* insert data into table
 
 
